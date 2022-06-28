@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+   
+   }
+   
+   .banner{
+       width: 100%;
+       float: left;
+       text-align: center;
+       padding: 3% 4%;
+       background: no-repeat fixed;
+   }
+ 
+
+   h1{
+       color: aliceblue;
+       text-align: center ;
+       margin: 20px;
+   }
+   
+   .cardapio{
+       max-width: 1200px;
+       margin: 0 auto;
+      
+       display: flex;
+       flex-wrap: wrap ;
+   }
+   
+   .cardapio div{
+       flex: 1 1 350px;
+      margin: 10px;
+   }
+   
+   
+   
+   button{
+       display: block;
+       margin: 20px auto;
+       background: crimson;
+       color:white;
+       border: 0;
+       cursor: pointer;
+       padding: 6px 10px;
+   }
+   
+ 
+
+   img{
+       width: 100%;
+       border-radius: 10px;
+   }
